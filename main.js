@@ -1,6 +1,6 @@
 !function(){
     function writeCode(prefix, code, fn){
-        var duration = 50
+        var duration = 10
         $('.actions').on('click', 'button', function(e){
             let $button = $(e.currentTarget)
             let speed = $button.attr('data-speed')
